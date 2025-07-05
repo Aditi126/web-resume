@@ -1,0 +1,21 @@
+:root{
+    --heading-color: #fff;
+    --btn-text-color: #fff;
+    --btn-bgc: #424242;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/assets/images/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+}
+.wrapper{
+    background-color: rgb(27 34 45 / 90%);
+    margin: 0 auto;
+    width: 1320px;
+    height: calc(100vh - 100px);
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 5px rgb(87 70 150 / 65%);
+}

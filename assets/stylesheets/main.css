@@ -1,5 +1,5 @@
 :root{
-    --heading-color: #fff;
+    --text-color: #fff;
     --btn-text-color: #fff;
     --btn-bgc: #424242;
 }
@@ -9,13 +9,46 @@
     background-image: url("/assets/images/bg-img.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 50px;
+    padding:100px 0;
 }
 .wrapper{
     background-color: rgb(27 34 45 / 90%);
     margin: 0 auto;
-    width: 1320px;
-    height: calc(100vh - 100px);
+    width: 1280px;
+    height: calc(100vh - 200px);
     border-radius: 20px;
     box-shadow: 0px 10px 30px 5px rgb(87 70 150 / 65%);
+    position: relative;
+}
+.wrapper > .row{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    background-color: rgb(124, 118, 146);
+    height: 100%;
+    padding: 30px   ;
+    text-align: center;
+    color: var(--text-color);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro a{
+    color: var(--text-color);
+}
+.intro ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.profile-pic img{
+    border-radius: 100%;
+    border: 10px solid #ffc107;
 }

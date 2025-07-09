@@ -3,6 +3,9 @@
     --btn-text-color: #fff;
     --btn-bgc: #424242;
 }
+.h-100{
+    height: 100%;
+}
 #container{
     height: 100vh;
     width: 100vw;
@@ -28,14 +31,14 @@
 .intro{
     background-color: rgb(124, 118, 146);
     height: 100%;
-    padding: 30px   ;
     text-align: center;
     color: var(--text-color);
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .intro a{
     color: var(--text-color);
@@ -51,4 +54,29 @@
 .profile-pic img{
     border-radius: 100%;
     border: 5px groove #ffc107;
+}
+#content{
+    position: relative;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+#home h1{
+    font-size: 4em;
+    color: var(--text-color);
+}
+#home p{
+    font-size: 2em;
+    color: #c6c2c2;
+}
+#about{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    background-color: rgba(49, 49, 49, 0.516);
+    color: var(--text-color);
+    padding: 50px;
 }

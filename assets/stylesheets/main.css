@@ -29,7 +29,7 @@
     height: 100%;
 }
 .intro{
-    background-color: rgb(124, 118, 146);
+    background-color: #456882;
     height: 100%;
     text-align: center;
     color: var(--text-color);
@@ -55,8 +55,11 @@
     border-radius: 100%;
     border: 5px groove #ffc107;
 }
-#content{
+.content{
     position: relative;
+}
+.content{
+    overflow-y: scroll;
 }
 #home{
     display: flex;
@@ -72,11 +75,32 @@
     font-size: 2em;
     color: #c6c2c2;
 }
-#about{
+#about , #education {
     position: absolute;
+    padding: 50px;
     top: 0px;
     height: 100%;
-    background-color: rgba(49, 49, 49, 0.516);
+    width: 100%;
+    background-color: #1B3C53;
     color: var(--text-color);
-    padding: 50px;
+}
+#about h2, #education h2{
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #F9F3EF;
+}
+#about p{
+    text-align: justify;
+}
+#about ul li{
+    letter-spacing: 1px;
+}
+#about ul li span{
+    color: #ffc107;
+    font-weight: bold;
+}
+#about .icon{
+    font-size: 2em;
+    color: #ffc107;
 }

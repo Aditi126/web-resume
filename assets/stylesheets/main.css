@@ -73,7 +73,7 @@
     border: 5px groove #ffc107;
 }
 .content{
-    position: relative;
+    position: absolute;
 }
 .content{
     overflow-y: scroll;
@@ -93,7 +93,7 @@
     color: #c6c2c2;
 }
 #about , #education-and-skills, #projects, #contact{
-    position: absolute;
+    position: relative;
     padding: 50px;
     /* top: 0px; */
     height: 100%;
@@ -192,10 +192,10 @@
 
 .timeline::after{
     content: "";
-    height: 130%;
+    height: 85%;
     left: 50%;
     position: absolute;
-    top: 0%;
+    top: 20%;
     border: 2px solid #ffc107;
 }
 
@@ -306,6 +306,10 @@
 }
 #emailHelp{
     color: white;
+}
+
+#contact{
+    background-color: rgba(27, 34, 45, 0);
 }
 #contact button{
     margin-top: 20px;

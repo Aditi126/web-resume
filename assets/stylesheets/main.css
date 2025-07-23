@@ -28,10 +28,10 @@
 .wrapper{
     background-color: rgb(27 34 45 / 90%);
     margin: 0 auto;
-    width: 70vw;
-    height: calc(100vh - 200px);
+    width: 80vw;
+    height: 80vh;
     border-radius: 20px;
-    box-shadow: 0px 10px 30px 5px rgb(87 70 150 / 65%);
+    box-shadow: 0px 0px 30px 1px #ffffff6b;
     position: relative;
 }
 .wrapper > .row{
@@ -74,9 +74,43 @@
 }
 .content{
     position: absolute;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .content{
     overflow-y: scroll;
+}
+.main-nav{
+    position: fixed;
+    top: 40%;
+    right: 7%;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav li {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: #ffffff4d;
+}
+.main-nav i{
+    height: 80%;
+    color: #ffc107;
+    width: 80%;
+    transition: all 50ms linear;
+}
+.main-nav i:hover{
+    transform: scale(1.5);
 }
 #home{
     display: flex;
@@ -278,8 +312,8 @@
 }
 
 #projects .card{
-    height: 80%;
-    background-color:hsl(220 30% 10%);
+    height: 100%;
+    background-color:hsl(220 30% 12%);
     color: white;
 }
 

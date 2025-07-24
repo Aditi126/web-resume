@@ -6,7 +6,7 @@
 .h-100{
     height: 100%;
 }
-* h1, h2, h3, h4, h5{
+* h1, * h2, * h3, * h4, * h5{
     letter-spacing: 1px;
 }
 .content::-webkit-scrollbar {
@@ -238,8 +238,6 @@
     font-size: large;
 }
 
-#skills{
-}
 
 #skills ul, .intern-skill ul{
     list-style: none;
@@ -262,6 +260,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.heading{
+    display: none;
 }
 
 .intern-skill{
@@ -312,7 +314,7 @@
 }
 
 #projects .card{
-    height: 100%;
+    height: auto;
     background-color:hsl(220 30% 12%);
     color: white;
 }
@@ -429,11 +431,19 @@
 }
 /* unfinished */
 @media (max-width: 768px) {
+    #home h1{
+        font-size: 40px;
+    }
+    #home p{
+        font-size: 20px;
+    }
     #container{
         padding-top: 50px ;
     }
     .intro h2, #about h2, #home h2, #education-and-skills h2, #projects h2, #contact h2{
         font-size: large !important;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
     }
     #about ul{
         font-size: xx-small;
@@ -451,5 +461,138 @@
         font-size: x-small;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    #about .row{
+        padding-bottom: 10px;
+        margin-left: 0px;
+    }
+    #about .row h2{
+        padding-left: 0px;
+    }
+    #about .row .col-md-6{
+        display: flex;
+        justify-content: start;
+        align-items: baseline;
+        gap: 10px;
+    }
+    #education-and-skills h4, #education-and-skills span, #education-and-skills h5, #projects h4, #projects h5, #skills p, .intern-skill p, #contact button, .card p, .card a.btn{
+        font-size: xx-small;
+    }
+    
+    #education-and-skills h2{
+        display: none;
+    }
+    
+    #education-and-skills .row .heading{
+        display: inline;
+        margin-bottom: 10px;
+    }
+    #education-and-skills .row{
+        display: flex;
+        flex-direction: column;
+    }
+    #education .inner-box p, #education-and-skills .inner-box h4{
+        font-size: xx-small;
+        margin-bottom: 0px;
+    }
+    
+    #education-and-skills{
+        height: 200%;
+    }
+    .timeline , .timeline .box.right .inner-box, .timeline .box.left .inner-box {
+        padding-top: 5px !important;
+        width: 100% !important;
+    }
+    #skills{
+        width: 100%;
+    }
+    #skills ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #skills ul li, .intern-skill li, .card a.btn{
+        width: 90px;
+    }
+    #skills ul li p{
+        margin-bottom: 5px;
+    }
+    .btn {
+        height: 30px;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    #projects h3{
+        font-size: medium;
+        margin-left: 10px;
+    }
+    .internhead{
+        margin-bottom: 10px;
+    }
+    .proj-row-el *{
+        margin: 5px !important;
+        padding: 0px !important;
+    }
+    #projects .mt-4{
+        padding-left: 1.5rem !important;
+        padding-right: 0rem !important;
+        margin-top: 0rem !important;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+    .col-md-4{
+        width: 40%;
+        margin-left: 0px !important;
+        padding-top: 0px;
+        margin-right: 20px !important;
+
+    }
+    .card{
+        margin-left: 0px !important;
+        margin-right: 10px;
+    }
+    
+    .intern{
+        margin-top: 5px;
+        padding: 5px  !important;
+    }
+    .card a.btn, #contact .btn{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #contact input, #contact label{
+        height: 20px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+    }
+    #contact input, {
+        font-size: small;
+    }
+    #contact textarea{
+        height: 50px;
+    }
+    #contact .btn{
+        margin-top: 5px;
+        width: 90px;
+    }
+    #exampleCheck1{
+        width: 20px;
+        margin-right: 10px;
+    }
+    .main-nav{
+        right: 5%;
+        top: 32%;
+    }
+    .main-nav li{
+        padding: 5px;
+        width: 30px;
     }
 }

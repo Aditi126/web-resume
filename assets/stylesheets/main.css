@@ -785,20 +785,16 @@
     }
 
     #education-and-skills{
-        height: 100vh;
+        height: 200vh;
     }
-    #education{
-        margin-bottom: 0px !important;
+    #education,
+    #skills{
+        height: 90vh;
     }
+
     #skills ul li {
         width: 60px;
         padding: 5px;
-    }
-    #skills{
-        padding-top: 0px !important;
-    }
-    #education, #skills{
-        height: 40vh;
     }
     #projects .row.mt-4{
         display: flex;

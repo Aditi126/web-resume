@@ -418,7 +418,7 @@
 }
 
 /* Responsiveness */
-@media (min-width: 1441px){
+@media (min-width: 1441px) and (max-width: 4000px){
     #about h2, #education-and-skills h2, #projects h2, #contact h2{
         font-size: 50px;
     }

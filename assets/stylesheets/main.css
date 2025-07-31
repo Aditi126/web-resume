@@ -785,11 +785,11 @@
     }
 
     #education-and-skills{
-        height: 200vh;
+        height: 100vh;
     }
     #education,
     #skills{
-        height: 90vh;
+        height: 40vh;
     }
 
     #skills ul li {

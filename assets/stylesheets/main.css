@@ -796,6 +796,9 @@
         width: 60px;
         padding: 5px;
     }
+    #skills{
+        padding-top: 0px !important;
+    }
     #projects .row.mt-4{
         display: flex;
         flex-direction: column;

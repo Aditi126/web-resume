@@ -787,13 +787,18 @@
     #education-and-skills{
         height: 100vh;
     }
-
+    #education{
+        margin-bottom: 0px !important;
+    }
     #skills ul li {
         width: 60px;
         padding: 5px;
     }
     #skills{
         padding-top: 0px !important;
+    }
+    #education, #skills{
+        height: 40vh;
     }
     #projects .row.mt-4{
         display: flex;

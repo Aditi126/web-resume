@@ -418,7 +418,7 @@
 }
 
 /* Responsiveness */
-@media (min-width: 1441px){
+/* @media (min-width: 1441px) and (max-width: 2560px){
     #about h2, #education-and-skills h2, #projects h2, #contact h2{
         font-size: 50px;
     }
@@ -494,7 +494,7 @@
     #contact label, .form-control{
         font-size: x-large !important;
     }
-}
+} */
 @media (max-width: 1440px) {
     #education-and-skills #skills {
         padding-left: 50px;
@@ -551,13 +551,26 @@
         padding: 20px;
     }
 
+    .intro h2 {
+        font-size: x-large;
+    }
+
+    .intro h4 {
+        font-size: medium;
+    }
+
     #home,
     #about,
     #education-and-skills,
     #projects,
     #contact {
         padding-left: 20px;
+        font-size: smaller;
         padding-right: 20px;
+    }
+
+    #about ul {
+        font-size: smaller;
     }
 
     #skills {
@@ -590,7 +603,7 @@
     .intro{
         height: 100v;
     }
-    /* #home h1 {
+    #home h1 {
         font-size: 40px;
     }
 
@@ -619,7 +632,7 @@
 
     .intro h2 {
         font-size: large;
-    } */
+    }
 
     .intro,
     .intro button,
@@ -627,7 +640,7 @@
     #education-and-skills,
     #projects,
     #contact {
-        /* font-size: x-small; */
+        font-size: x-small;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -648,7 +661,7 @@
         gap: 10px;
     }
 
-    /* #education-and-skills h4,
+    #education-and-skills h4,
     #education-and-skills span,
     #education-and-skills h5,
     #projects h4,
@@ -659,7 +672,7 @@
     .card p,
     .card a.btn {
         font-size: xx-small;
-    } */
+    }
 
     #education-and-skills h2 {
         display: none;
@@ -675,7 +688,7 @@
     }
     #education > .inner-box p,
     #education-and-skills .inner-box h4 {
-        /* font-size: xx-small; */
+        font-size: xx-small;
         margin-bottom: 0px;
     }
 
@@ -720,7 +733,7 @@
     }
 
     #projects h3 {
-        /* font-size: medium; */
+        font-size: medium;
         margin-left: 10px;
     }
 

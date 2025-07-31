@@ -787,10 +787,6 @@
     #education-and-skills{
         height: 100vh;
     }
-    #education,
-    #skills{
-        height: 40vh;
-    }
 
     #skills ul li {
         width: 60px;
